@@ -77,7 +77,7 @@ python train_model.py --epochs 200 --batch_size 32
 python enhance_audio.py --input noisy_audio.wav --output enhanced_audio.wav
 ```
 
-## 📁 Project Structure
+##  Project Structure
 ```
 ├── preprocessing/          # MATLAB preprocessing scripts
 ├── models/                 # CNN-BiLSTM architecture
@@ -88,7 +88,7 @@ python enhance_audio.py --input noisy_audio.wav --output enhanced_audio.wav
 └── report/                 # Project documentation
 ```
 
-## 📈 Results
+##  Results
 
 ### Spectral Comparison
 The model successfully reduces background noise while preserving speech clarity:
@@ -101,7 +101,7 @@ The model successfully reduces background noise while preserving speech clarity:
 - Improved intelligibility for various hearing loss profiles
 - Consistent performance across different noise types
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Network Architecture
 - **Input**: Dual-channel (left/right) with 5-dimensional feature vectors
@@ -117,7 +117,7 @@ The model successfully reduces background noise while preserving speech clarity:
 - 40ms frames with 50% overlap
 - Hamming windowing
 
-## 🎯 Future Work
+##  Future Work
 
 - [ ] Model compression for edge deployment
 - [ ] Real-world environment testing
@@ -125,7 +125,7 @@ The model successfully reduces background noise while preserving speech clarity:
 - [ ] Smartphone-based interactive interface
 - [ ] Performance optimization for reverberant conditions
 
-## 👥 Authors
+##  Authors
 
 - **Sathwik Chowdary Merla** - merla.s@northeastern.edu
 - **Rucha Bhandari** - bhandari.ru@northeastern.edu
